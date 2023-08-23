@@ -1,0 +1,46 @@
+.demo {
+  visibility:hidden;
+}
+
+.bg {
+  font-size:10vh;
+  text-align:center;
+  color:rgba(255, 255, 255, 0.1);
+  font-family:Kanit, sans-serif;
+  font-weight:900;
+  line-height:100vh;
+}
+
+.demo div {
+  position:absolute;
+  display:inline-block;
+  left:50%;
+  top:50%;
+  font-weight:800;
+  font-size:50px;
+  line-height:60px;
+  color:#16a316;
+  opacity:0;
+  width:100%;
+  text-align:center;
+  font-family:Arial, sans-serif;
+  transform:translate(-50%, -50%);
+  
+  
+}
+
+body, html {
+
+  background:#0c0c0b;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+  margin:0;
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
